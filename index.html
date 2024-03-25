@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <script src="https://kit.fontawesome.com/62872497bf.js" crossorigin="anonymous"></script>
+  <title>Virtual Interior Design</title>
+</head>
+<body>
+  <div class="hero" id="home">
+    <div class="backgroundimage">
+      </div>
+    <div class="hero-text">
+    <h1 class="text1">welcome to Interior Designing</h1>
+    <div class="hero-btn">
+      <button class="button1">Join Us</button>
+      <button class="button2" onclick="window.location.href='https://youtu.be/ptNElucZ-As?feature=shared'">Learn More</button>
+
+    </div>
+  </div>
+
+  </div>
+
+  <nav>
+    <div class="logo">
+      <div class="logo-text">
+        <span class="bold-text">Virtual Interior Design</span>
+      </div>
+    </div>
+    <div class="nav-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#why-me">Why Me</a></li>
+        <li><a href="#offers">Memes</a></li>
+    </ul>
+  </nav>
+  
+  
+
+  <section class="section" id="about">
+    <div class="section-content">
+      <div class="section-side right">
+        <h2>About Us</h2>
+        <h1>Interior Design</h1>
+        <p id="aboutText" style="display: none;">Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people using the space. With a keen eye for detail and a creative flair, an interior designer is someone who plans, researches, coordinates, and manages such enhancement projects. Interior design is a multifaceted profession that includes conceptual development, space planning, site inspections, programming, research, communicating with the stakeholders of a project, construction management, and execution of the design.</p>
+        <p id="more" >The pursuit of effective use of space, user well-being and functional design has contributed to the development of the contemporary interior design profession. The profession of interior design is separate and distinct from the role of interior decorator, a term commonly used in the US; the term is less common in the UK, where the profession of interior design is still unregulated and therefore, strictly speaking, not yet officially a profession.
+        In ancient India, architects would also function as interior designers. This can be seen from the references of Vishwakarma the architect—one of the gods in Indian mythology. </p>
+        <p id="read-more" class="read-more" onclick="showLess()"  >Read More<i class="fa-solid fa-angle-down fa-2xs" style="margin-left: 5px;"></i></p>
+        <p id="less" class="read-more"  onclick="showMore()" style="display: none;"  >Read Less<i class="fa-solid fa-angle-up fa-2xs" style="margin-left: 5px;"></i></p>
+      </div>
+      <div class="section-side left">
+        <img src="i2.webp" alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="box-section" id="why-me">
+    <p>THE BENEFITS</p>
+    <h2>Why Choose<span>Us</span></h2>
+    <p class="last-text">"Interior designing business is lucrative. You can make a lot of money by working for clients and saving money. "</p>
+    <div class="box-section-content">
+
+      <div class="box">
+         <div class="image">
+            <img src="l1.png" alt="">
+                </div>
+        <div class="text">
+          <h4>Entrepreneurship</h4>
+          <p>Entrepreneurship is the creation or extraction of economic value in ways that generally entail beyond the minimal amount of risk, and potentially involving values besides simply economic ones. </p>
+        </div>
+       
+      </div>
+      <div class="box">
+        <div class="image">
+            <img src="l2.jpeg" alt="">
+                </div>
+        <div class="text">
+          <h4>Excellent opportunities</h4>
+          <p>There is a scarcity of quality designers, especially in metro cities like Chennai, and career opportunities will keep increasing year on year .</p>
+        </div>
+        
+      </div>
+      <div class="box">
+        <div class="image">
+            <img src="l3.png" alt="">
+                </div>
+        <div class="text">
+          <h4>Enriching experience</h4>
+          <p>Helps in Getting Huge Enriching Exposure ... As an interior designer, you get opportunities to interact and socialize with a lot of people working.</p>
+        </div>
+        
+      </div>
+      <div class="box">
+        <div class="image">
+       <img src="l4.webp" alt="">
+                </div>
+        <div class="text">
+          <h4>An interior designer saves you money</h4>
+          <p>An interior designer saves you money. Interior designers have access to trade discounts, they can get wholesale prices but they also know how to spend your money.</p>
+        </div>
+        
+      </div>
+      <div class="box">
+        <div class="image">
+         <img src="l5.jpg" alt="">
+                        </div>
+        <div class="text">
+          <h4>Resource</h4>
+          <p>Access to resources. Interior designers are doing this job day-in-day-out, so they have access to resources and contacts you may not ordinarily have access Resources.</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <section class="box-section">
+    <h2 style="font-size: 40px; color: blueviolet;">Form</h2>
+   <div class="container">
+
+        <h2>Virtual Interior Design Form</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="room-dimensions">Room Dimensions (in meters):</label>
+                <input type="text" id="room-dimensions" name="room-dimensions" required>
+            </div>
+            <div class="form-group">
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+  
+  
+  <section class="four-column-section">
+    <div class="four-column-content">
+      <div class="column">
+        <h2>Interior Design</h2>
+        <p>Interior designers make indoor spaces functional, safe, and beautiful by determining space requirements and selecting essential and decorative items, such as colors, lighting, and materials.</p>
+      </div>
+      <div class="column">
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#why-me">Why Me</a></li>
+            <li><a href="#offers">Offers</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h2>Credits</h2>
+        <ul>
+            <li><a href="">Designed By</a></li>
+            <li><a href="">Kanuri</a></li>
+          </ul>
+      </div>
+      <div class="column">
+        <h2>Contact</h2>
+        <ul>
+          <li>kanurigeetha@gmail.com</li>
+          <li><a href=""><i class="fa-brands fa-instagram"></i></a> <a href=""><i class="fa-brands fa-facebook"></i></a> <a href=""><i class="fa-brands fa-discord"></i></a> <a href=""><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+<script>
+
+
+
+const navToggle = document.querySelector('.nav-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+navToggle.addEventListener('click', () => {
+  navToggle.classList.toggle('active');
+  navLinks.classList.toggle('active');
+});
+
+
+const textElement = document.getElementById('text');
+const prevButton = document.getElementById('prevButton');
+const nextButton = document.getElementById('nextButton');
+
+const texts = [
+  '"Why did the cryptocurrency investor choose Uranus MemeToken? Because it`s the only coin that lets you "moon" while making everyone laugh!"',
+  '"What`s the favorite planet of crypto enthusiasts? Uranus, of course! Because when it comes to memes and money, it`s out of this world!"',
+  '"Heard about the latest crypto trend? It`s called Uranus MemeToken. They say investing in it is like taking a trip to outer space—full of surprises and endless laughs!"'
+];
+
+let currentIndex = 0;
+
+function updateText() {
+  textElement.textContent = texts[currentIndex];
+}
+
+updateText();
+
+prevButton.addEventListener('click', () => {
+  currentIndex = (currentIndex - 1 + texts.length) % texts.length;
+  updateText();
+});
+
+nextButton.addEventListener('click', () => {
+  currentIndex = (currentIndex + 1) % texts.length;
+  updateText();
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  const navbarLinks = document.querySelectorAll('.navbar a');
+
+  navbarLinks.forEach(link => {
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(targetId);
+      scrollToSection(targetSection);
+    });
+  });
+
+  function scrollToSection(section) {
+    const targetPosition = section.getBoundingClientRect().top;
+    const startPosition = window.pageYOffset;
+    const distance = targetPosition - startPosition;
+    const duration = 1000; // Adjust duration as needed
+    let startTime = null;
+
+    function animation(currentTime) {
+      if (startTime === null) startTime = currentTime;
+      const timeElapsed = currentTime - startTime;
+      const scrollAmount = easeInOutQuad(timeElapsed, startPosition, distance, duration);
+      window.scrollTo(0, scrollAmount);
+      if (timeElapsed < duration) requestAnimationFrame(animation);
+    }
+
+    function easeInOutQuad(t, b, c, d) {
+      t /= d / 2;
+      if (t < 1) return c / 2 * t * t + b;
+      t--;
+      return -c / 2 * (t * (t - 2) - 1) + b;
+    }
+
+    requestAnimationFrame(animation);
+  }
+});
+
+function showMore() {
+        document.getElementById('aboutText').style.display = 'none';
+        document.getElementById('more').style.display = 'block';
+        document.getElementById('less').style.display = 'none';
+        document.getElementById('read-more').style.display = 'block';
+    }
+
+    function showLess() {
+        document.getElementById('aboutText').style.display = 'block';
+        document.getElementById('more').style.display = 'none';
+        document.getElementById('less').style.display = 'block';
+        document.getElementById('read-more').style.display = 'none';
+    }
+
+
+
+  </script>
+
+</html>
+
+
+ 
+       
+   
